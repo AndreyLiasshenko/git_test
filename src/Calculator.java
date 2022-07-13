@@ -6,7 +6,7 @@ class Calculator {
         String op = scanner.nextLine();
         int  n1 = scanner.nextInt();
         int n2 = scanner.nextInt();
-        System.out.print(1+" "+op+" "+n2+" = ");
+        System.out.print(n+" "+op+" "+n2+" = ");
         System.out.println(calculate(n1, n2, op));
     }
     static int calculate(int n1, int n2, String op) {
